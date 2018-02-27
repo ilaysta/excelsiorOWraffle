@@ -24,21 +24,21 @@ def main():
 
 
 ########edit  this###########
-    bdate = "1998-09-11"
-    phone = "7022798025"
-    size = ['8','8,5','9','9,5','10','10,5','11','11,5','12','12,5','13']
-    instagram = "fuckjamzi" 
+    bdate = "2000-12-31"
+    phone = "818-917-0357"
+    size = ['8']
+    instagram = "still.sell.supreme" 
     country = "United States"
-    city = "new york"
-    zipcode = "90701"
-    street = "12345 bob ave"
+    city = "tarzana"
+    zipcode = "91356"
+    street = "18643 collins st"
 
     #if your email 1234lab@gmail.com replase xxx with 1234lab
-    email = "xxx+{}@gmail.com".format(getrandbits(40)) 
+    email = "ilay1231+{}@gmail.com".format(getrandbits(40)) 
 #####################
 
-    fname = faker.first_name()
-    lname = faker.last_name()
+    fname = faker.first_name(ilay)
+    lname = faker.last_name(benshabat)
 
     data = {
         'first_name':fname,
